@@ -53,7 +53,7 @@ body{
 
 
 .img-fluid{
-    
+    width:50%;
     margin-left:2%;
     border-radius: 10%;
 
@@ -88,7 +88,10 @@ font-size:25px ;
 .card{
   background-color:#3e92cc ;
   color: white;
-  width: 40rem;
+
+  border:2px solid black;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .imagenes-contacto{
@@ -132,6 +135,11 @@ font-size:25px ;
       width:5rem;
 
     }
+    .img-fluid{
+      width:100%;
+
+  
+  }
 
     #sobremi{
       margin-top:15%;
