@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Danilo Diez</title>
+    <title>Portfolio| Danilo Diez</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -12,17 +12,10 @@
     
 <body>
 
-    <nav class="topnav nav-pills" id="myTopnav">
+    <nav class="topnav" id="myTopnav">
       
         
-        <a class="navbar-brand" aria-current="page" href="https://www.linkedin.com/in/danilo-diez-6035bb183/" target="_blank" ><img  src="./assets/img/002-linkedin.svg"  width="40" height="40" alt=""></a>
-      
-      
-        <a class="navbar-brand" aria-current="page" href="https://github.com/danilodiez" target="_blank" ><img src="./assets/img/001-github.svg" width="40" height="40" alt=""></a>
-      
-    
-        
-          <a class="nav-link active" aria-current="page" href="#">Sobre Mi</a>
+          <a class="nav-link" aria-current="page" href="#">Sobre Mi</a>
         
         
           <a class="nav-link" href="#educacion">Educacion</a>
@@ -33,15 +26,12 @@
         
             <a class="nav-link" href="#certificaciones">Certificaciones</a>
           
-          
+            <a class="nav-link" href="#contacto">Contacto</a>
             
-            <a href="javascript:void(0);" class="icon" onclick="navResponsive()">
-              <i class="fa fa-bars" aria-hidden="true"></i>
-            </a>
           
       </nav>
    
-<div class="container-fluid">
+<div class="container-fluid" id="sobremi">
   <div class="row">
   <div class="col">
      
@@ -53,12 +43,12 @@
   <div class="col texto">
    <h1>&#128187&#128512 Hola, soy Danilo</h1>
    <p class="text-justify">
-    Soy un estudiante de 5to año de Ingenieria en sistemas. Me apasiona el desarrollo de software, el estudio de algoritmos de inteligencia artificial y resolver problemas codeando.
+    Soy un estudiante de 5to año de Ingeniería en sistemas. Me apasiona el desarrollo de software, el estudio de algoritmos de inteligencia artificial y resolver problemas codeando.
     <br>
-    Ultimamente me estuve especializando en Desarrollo Web y movil, Machine learning, IoT, Cloud Computing y un poco diseño para combinar diferentes ramas que me gustan
+    Últimamente me estuve especializando en Desarrollo Web y movil, me puedo desempeñar como fullstack, Machine learning, IoT, Cloud Computing.
     <br>
     <br>
-    Si te gustaria contactarme o pedirme algun proyecto, sentite libre de hacerlo :)
+    Si te gustaría contactarme o pedirme algún proyecto, sentite libre de hacerlo :)
 
    </p>
 
@@ -76,12 +66,12 @@
 </div>
 </div>
 
-<div class="col">
+
 <div class="container-fluid" id="educacion">
   <div class="row">
     <div class="col">
        
-      <h1 >🖊️ &#128188 Educacion &#128213&#128187</h1>
+      <h1 >🖊️ &#128188 Educación &#128213&#128187</h1>
        
     </div>
   
@@ -95,25 +85,24 @@
 
       <h1>Ingenieria en Sistemas de Informacion</h1>
    <p class="text-justify">
-    Actualmente cursando el 5to año de la carrera donde aprendi multiples conceptos en programacion, sistemas operativos, redes, lenguajes y compiladores, entre muchos otros.
+    Actualmente cursando el 5to año de la carrera donde aprendí múltiples conceptos en programación, sistemas operativos, redes, lenguajes y compiladores, entre muchos otros.
    </p>
     </div>
 
   </div>
-  <br>
-  <br>
+
   <div class="row">
   <div class="col">
 <img src="./assets/img/stafford.jpeg" width=650 alt="stafford house" class="img-fluid">
   </div>
   <div class="col texto">
-    <h1>Especializacion en ingles</h1>
+    <h1>Estudios en inglés</h1>
     <p class="text-justify">
-     Luego de finalizar mis estudios y conseguir un titulo en el idioma ingles tuve la oportunidad de especializarme en la Institucion Stafford House en Londres.
+     Luego de finalizar mis estudios y conseguir un título en el idioma inglés tuve la oportunidad de especializarme en la Institucion Stafford House en Londres.
   </div>
   </div>
 </div>
-</div>
+
 <div class="container-fluid" id="proyectos">
 <div class="row">
   <div class="col">
@@ -121,70 +110,128 @@
   </div>
 </div>
 <div class="row">
-  <div class="col">
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
-        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
-        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
-        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"></li>
-        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"></li>
-        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"></li>
-        
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="./assets/img/ministerio.jpeg" class="d-block w-70" alt="Gestion del ministerio de salud">
-          <div class="carousel-caption d-none d-md-block">
-            <h5 style="color:#000000">Gestion web del Ministerio de Salud</h5>
-          </div>
+  
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card" >
+        <img src="./assets/img/ministerio.jpeg" class="card-img-top" alt="ministerio de salud recursos chaco">
+        <div class="card-body">
+          <h5 class="card-title">Gestión de recursos para el Ministerio de Salud</h5>
+          <p class="card-text">WebApp para gestionar los recursos de hospitales en la provincia de Chaco. Desarrollado con React, Express, MongoDB y NodeJs.
+          Para probarlo:
+          <br>
+          Usuario: user00
+          <br>
+          Contraseña: 9hVUNzn
+          </p>
+          <a href="http://fronthealthministry.s3-website-sa-east-1.amazonaws.com/" class="btn btn-primary" target="blank">Ver</a>
+          <a href="https://github.com/danilodiez/2020-G2-TPI" class="btn btn-primary" target="blank">Repositorio</a>
         </div>
-        
-        <div class="carousel-item">
-          <img src="./assets/img/resolvedor.jpeg" class="d-block w-70" alt="Calculadora No lineal">
-          <div class="carousel-caption d-none d-md-block">
-            <h5 style="color:#000000">Calculadora de Programacion No lineal</h5>
-          </div>
-        </div>
-        
-        <div class="carousel-item">
-          <img src="./assets/img/viajes.jpeg" class="d-block w-70" alt="Aplicacion para agencia de viajes">
-          <div class="carousel-caption d-none d-md-block">
-            <h5 style="color:#ffffff">Landing Page para agencia de viajes</h5>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="./assets/img/alien.jpeg" class="d-block w-70" alt="Juego replica de alien invaders">
-          <div class="carousel-caption d-none d-md-block">
-            <h5 style="color:#fff">Replica de Alien Invaders con PyGame</h5>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="./assets/img/convolucion.jpeg" class="d-block w-70" alt="Redes neuronales convolutivas">
-          <div class="carousel-caption d-none d-md-block">
-            <h5 style="color:#000000">Deteccion de gestos con NN convolutivas</h5>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="./assets/img/dinobot.jpeg" class="d-block w-70" alt="Automatizacion de dinosaurio de Google Chrome">
-          <div class="carousel-caption d-none d-md-block">
-            <h5 style="color:#000000">Automatizacion del dino de Chrome</h5>
-          </div>
-        </div>
-        
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </a>
+    </div>
+    <div class="col">
+      <div class="card" ">
+        <img src="./assets/img/resolvedor.jpeg" class="card-img-top" alt="Calculadora de Programación No lineal">
+        <div class="card-body">
+          <h5 class="card-title">Calculadora de Programación No lineal</h5>
+          <p class="card-text">Aplicación web realizada en ReactJs para resolver problemas de programación no lineal, metodos utilizados en inteligencia artificial.
+          <br>
+          Desarrollado con React y un servicio con Python para uno de los métodos.
+
+          </p>
+            
+            <a href="https://optimizer-pl-io.web.app/home" class="btn btn-primary" target="blank">Ver</a>
+            <a href="https://github.com/danilodiez/optimizer-pl-io" class="btn btn-primary" target="blank">Repositorio</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" >
+        <img src="./assets/img/convolucion.jpeg" class="card-img-top" alt="convolucion tensorflow">
+        <div class="card-body">
+          <h5 class="card-title">Modelo convolutivo para clasificación de manos</h5>
+          <p class="card-text">Modelo de deep learning para clasificar gestos de números.
+          Desarrollado con Python y TensorFlow
+          </p>
+          <a href="https://github.com/danilodiez/Deep_learning_course/blob/main/Convolutional%20Neural%20Networks/Convolution_model_Application_v1a.ipynb" class="btn btn-primary" target="blank">Repositorio</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" >
+        <img src="./assets/img/dinobot.jpeg" class="card-img-top" alt="python dinosaurio bot google chrome">
+        <div class="card-body">
+          <h5 class="card-title">Bot para dinosaurio de Chrome</h5>
+          <p class="card-text">Bot para no preocuparse de jugar y ganar al dino de Google Chrome cuando te quedas sin internet.Desarrollado en Python</p>
+          <a href="https://github.com/danilodiez/Automatizacion_dino_chrome" class="btn btn-primary" target="blank">Repositorio</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" >
+        <img src="./assets/img/telegram.jpeg" class="card-img-top" alt="frameworks agiles">
+        <div class="card-body">
+          <h5 class="card-title">Bot de Wikipedia para Telegram</h5>
+          <p class="card-text">Bot para telegram que te permite obtener artículos de Wikipedia como respuesta a tus mensajes. Desarrollado en Python y Flask. Para utilizalo, buscar el usuario @wikicurioso_bot</p>
+          <a href="https://github.com/danilodiez/Telegram_Bot_Wikipedia" class="btn btn-primary" target="blank">Repositorio</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" >
+        <img src="./assets/img/alien.jpeg" class="card-img-top" alt="python alien invaders">
+        <div class="card-body">
+          <h5 class="card-title">Alien Invaders</h5>
+          <p class="card-text">Clon de Alien Invaders hecho desde 0 y completamente funcional. Desarrollado con Python y Pygame</p>
+          <a href="https://github.com/danilodiez/Alien-Invaders" class="btn btn-primary" target="blank">Repositorio</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" >
+        <img src="./assets/img/presupuesto.jpeg" class="card-img-top" alt="ministerio de salud recursos chaco">
+        <div class="card-body">
+          <h5 class="card-title">App para gastos semanales</h5>
+          <p class="card-text">WebApp para gestionar el presupuesto semanal. Desarrollado con Javascript
+          </p>
+          <a href="https://suspicious-haibt-08cbc5.netlify.app/" class="btn btn-primary" target="blank">Ver</a>
+          <a href="https://github.com/danilodiez/Gasto_Semanal" class="btn btn-primary" target="blank">Repositorio</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" ">
+        <img src="./assets/img/mascotas.jpeg" class="card-img-top" alt="Gestión de citas de veterinaria">
+        <div class="card-body">
+          <h5 class="card-title">Gestión de citas de veterinaria</h5>
+          <p class="card-text">Aplicación web para reservar y llevar registro de turnos en una veterinaria. Desarrollada con Javascript
+          
+
+          </p>
+            
+            <a href="https://elegant-goodall-15d3ba.netlify.app/" class="btn btn-primary" target="blank">Ver</a>
+            <a href="https://github.com/danilodiez/Citas_atencion_mascotas" class="btn btn-primary" target="blank">Repositorio</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" >
+        <img src="./assets/img/fingernails.jpeg" class="card-img-top" alt="comer uñas javascript">
+        <div class="card-body">
+          <h5 class="card-title">App para dejar de comerse las uñas</h5>
+          <p class="card-text">WebApp con un modelo de Machine Learning que detecta cuando te llevas las manos a la boca y tira alertas.
+            Desarrollado con Javascript y un modelo en TensorFlow.
+          </p>
+          <a href="https://dreamy-heisenberg-4d977e.netlify.app/" class="btn btn-primary" target="blank">Ver</a>
+          <a href="https://github.com/danilodiez/nail_biting_app" class="btn btn-primary" target="blank">Repositorio</a>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="col habilidades">
-    <h4>Tecnologias</h4>
+  </div>
+  <div class="row habilidades">
+    <div class="col">
+    <h3>Tecnologias</h3>
     <ul class="list-group">
       <li class="list-group-item">HTML + CSS + Bootstrap</li>
     
@@ -193,20 +240,22 @@
       <li class="list-group-item list-group-item-danger">Python + Jupyter + TensorFlow</li>
       <li class="list-group-item list-group-item-warning">AWS + Firebase + CircleCI</li>
       <li class="list-group-item list-group-item-info">MongoDB + MySql</li>
-      <li class="list-group-item list-group-item-light">Arduino + C</li>
+      <li class="list-group-item list-group-item-light">Arduino + C + Linux</li>
       <li class="list-group-item list-group-item-dark">GitHub + Docker</li>
     </ul>
-    <br>
-    <h4>Soft Skills</h4>
-    <ul class="list-group">
-      <li class="list-group-item">Proactivo + Autodidacta + Apasionado</li>
     
-      <li class="list-group-item list-group-item-primary">Trabajo en equipo + Tecnicas agiles</li>
-      <li class="list-group-item list-group-item-success">Empatico + Comunicativo</li>
-
+  </div>
+  <div class="col">
+    <h3>Soft Skills</h3>
+    <ul class="list-group">
+      <li class="list-group-item">Proactivo + Autodidácta </li>
+    
+      <li class="list-group-item list-group-item-primary">Trabajo en equipo + Técnicas ágiles</li>
+      <li class="list-group-item list-group-item-success">Empático + Comunicativo</li>
+      <li class="list-group-item list-group-item-danger">Persistente</li>
+    </div>
     </ul>
   </div>
-</div>
 </div>
 
 <div class="container-fluid" id="certificaciones">
@@ -272,10 +321,31 @@
     </div>
   </div>
 </div>
-<br>
+</div>
+<div class="container-fluid" id="contacto">
 <div class="row">
-  <h3>Por mas, anda a mi LinkedIn :)</h3></div>
-</div> 
+  <div class="col">
+  <h1>✉️Contacto✉️</h1>
+</div>
+</div>
+<div class="row imagenes-contacto">
+  <a target="blank" href="https://github.com/danilodiez">
+    <img class="iconos-contacto" src="./assets/img/001-github.svg" alt="">
+  </a>
+
+  <a target="blank" href="https://www.linkedin.com/in/danilo-diez-6035bb183/">
+  <img class="iconos-contacto" src="./assets/img/002-linkedin.svg">
+</a>
+
+
+<a target="blank" href="https://drive.google.com/file/d/13GnQuEvMPGLKy7JnsNmT9RimiFHBTK1A/view?usp=sharing">
+  <img class="iconos-contacto" src="./assets/img/001-cv.svg">
+</a>
+
+</div>
+</div>
+</div>
+
   
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="background-color: rgba(236, 167, 44,0.5)">

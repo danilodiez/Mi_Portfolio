@@ -1,11 +1,3 @@
-function navResponsive() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  }
 
 // When the user scrolls the page, execute myFunction
 window.onscroll = function() {myFunction()};
